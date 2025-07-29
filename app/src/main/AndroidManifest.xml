@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CityWiseIndia">
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".SelectCityActivity" />
+        <activity android:name=".IndoreCityActivity" />
+        <activity android:name=".MumbaiCityActivity" />
+        <activity android:name=".DelhiCityActivity" />
+        <activity android:name=".BangaloreCityActivity" />
+        <activity android:name=".JaipurCityActivity" />
+        <activity android:name=".AhmedabadCityActivity" />
+        <activity android:name=".PuneCityActivity" />
+        <activity android:name=".IndoreFoodActivity" />
+        <activity android:name=".IndoreAttractionsActivity" />
+        <activity android:name=".IndoreActivitiesActivity" />
+        <activity android:name=".IndoreEventsActivity" />
+        <activity android:name=".IndoreAdventuresActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.App.Starting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,92 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.CityWiseIndia" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/md_theme_primary_light</item> <!-- For light mode -->
+        <item name="colorOnPrimary">@color/md_theme_onPrimary_light</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primaryContainer_light</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_onPrimaryContainer_light</item>
+        <item name="colorSecondary">@color/md_theme_secondary_light</item>
+        <item name="colorOnSecondary">@color/md_theme_onSecondary_light</item>
+        <item name="colorSecondaryContainer">@color/md_theme_secondaryContainer_light</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_onSecondaryContainer_light</item>
+        <item name="colorTertiary">@color/md_theme_tertiary_light</item>
+        <item name="colorOnTertiary">@color/md_theme_onTertiary_light</item>
+        <item name="colorTertiaryContainer">@color/md_theme_tertiaryContainer_light</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_onTertiaryContainer_light</item>
+        <item name="colorError">@color/md_theme_error_light</item>
+        <item name="colorOnError">@color/md_theme_onError_light</item>
+        <item name="colorErrorContainer">@color/md_theme_errorContainer_light</item>
+        <item name="colorOnErrorContainer">@color/md_theme_onErrorContainer_light</item>
+        <item name="android:colorBackground">@color/md_theme_background_light</item>
+        <item name="colorOnBackground">@color/md_theme_onBackground_light</item>
+        <item name="colorSurface">@color/md_theme_surface_light</item>
+        <item name="colorOnSurface">@color/md_theme_onSurface_light</item>
+        <item name="colorSurfaceVariant">@color/md_theme_surfaceVariant_light</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_onSurfaceVariant_light</item>
+        <item name="colorOutline">@color/md_theme_outline_light</item>
+        <item name="colorOutlineVariant">@color/md_theme_outlineVariant_light</item>
+        <item name="colorSurfaceInverse">@color/md_theme_inverseSurface_light</item>
+        <item name="colorOnSurfaceInverse">@color/md_theme_inverseOnSurface_light</item>
+        <item name="colorPrimaryInverse">@color/md_theme_inversePrimary_light</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+
+
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent.Pill</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.MediumComponent.TopRounded</item>
+
+
+        <item name="chipStyle">@style/Widget.App.Chip.Pill</item>
+    </style>
+
+
+    <style name="Theme.CityWiseIndia" parent="Base.Theme.CityWiseIndia" />
+
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_app_logo</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.CityWiseIndia</item>
+        <item name="android:windowSplashScreenBrandingImage" tools:targetApi="s">@drawable/branding_text_light</item>
+    </style>
+
+
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent" />
+
+    <style name="ShapeAppearance.App.MediumComponent.TopRounded" parent="ShapeAppearance.App.MediumComponent">
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+
+    <style name="ShapeAppearance.App.SmallComponent.Pill" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+
+    <style name="Widget.App.Chip.Pill" parent="Widget.Material3.Chip.Filter">
+        <item name="chipMinHeight">56dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.App.Chip</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent.Pill</item> -->
+        <item name="chipStartPadding">12dp</item>
+        <item name="chipEndPadding">12dp</item>
+        <item name="textStartPadding">16dp</item>
+        <item name="textEndPadding">16dp</item>
+        <item name="ensureMinTouchTargetSize">true</item>
+    </style>
+
+
+    <style name="TextAppearance.App.Chip" parent="TextAppearance.Material3.LabelLarge">
+    </style>
+
+</resources>

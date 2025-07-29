@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1073501022607",
+    "project_id": "citywise-india",
+    "storage_bucket": "citywise-india.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073501022607:android:c8e49ebbdec882b79c83fa",
+        "android_client_info": {
+          "package_name": "com.prayag.citywiseindia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkdZcTW3hW2qjoK72sJOrUP5RiL95Peus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
