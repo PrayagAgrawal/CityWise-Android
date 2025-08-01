@@ -59,6 +59,14 @@ CityWise is an elegant, city-centric Android app crafted to offer a smooth and i
 
 ---
 
+## 📲 Download CityWise
+
+🎉 Try the app yourself by downloading the latest APK:
+
+👉 [Download CityWise v1.0 APK](https://github.com/PrayagAgrawal/CityWise-Android/releases/download/v1.0/CityWise.apk)
+
+---
+
 ## 🙌 Like the Project?
 
 If you enjoyed exploring CityWise or found it inspiring:
